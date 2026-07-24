@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Bitte zitiere die kanonische Studie und gib den verwendeten Datenstand an."
+title: "Agentic Coding Trends 2026"
+type: dataset
+authors:
+  - family-names: "Schäfer"
+    given-names: "Leon"
+publisher: "Agentic Coder"
+license: "CC-BY-4.0"
+url: "https://agentic-coder.de/studien/agentic-coding-trends-2026"
+repository-code: "https://github.com/LeonSchaefer1/agentic-coding-trends-2026"
+date-released: 2026-07-24

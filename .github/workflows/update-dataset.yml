@@ -1,0 +1,39 @@
+name: Update dataset
+
+on:
+  schedule:
+    - cron: "45 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download current snapshot
+        run: |
+          curl --fail --silent --show-error --location \
+            https://agentic-coder.de/data/agentic-coding-repositories-2026.json \
+            --output data/agentic-coding-repositories-2026.json
+          curl --fail --silent --show-error --location \
+            https://agentic-coder.de/data/agentic-coding-repositories-2026.csv \
+            --output data/agentic-coding-repositories-2026.csv
+          jq --exit-status \
+            '.methodology.sample_size >= 1 and (.repositories | length) >= 1' \
+            data/agentic-coding-repositories-2026.json >/dev/null
+
+      - name: Commit changed data
+        run: |
+          if git diff --quiet; then
+            echo "Dataset is already current."
+            exit 0
+          fi
+          git config user.name "agentic-coder-data-bot"
+          git config user.email "kontakt@agentic-coder.de"
+          git add data/
+          git commit -m "data: refresh daily snapshot"
+          git push
