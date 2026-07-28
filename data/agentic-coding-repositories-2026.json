@@ -3,7 +3,7 @@
   "description": "Täglich aktualisierte, regelbasierte Stichprobe aktiver Open-Source-Repositories für und rund um Coding-Agenten und KI-Coding-Assistenten.",
   "source": "GitHub REST API",
   "source_url": "https://docs.github.com/en/rest/search/search#search-repositories",
-  "generated_at": "2026-07-27T05:20:01.573366Z",
+  "generated_at": "2026-07-28T05:20:01.295467Z",
   "methodology": {
     "queries": [
       "\"coding agent\" in:name,description stars:>=50 archived:false fork:false",
@@ -17,8 +17,8 @@
   },
   "summary": {
     "repositories": 40,
-    "total_stars": 1633507,
-    "median_stars": 26492,
+    "total_stars": 1640506,
+    "median_stars": 26535,
     "median_days_since_push": 0,
     "licensed_share": 0.975,
     "top_languages": [
@@ -68,15 +68,15 @@
       "full_name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 190012,
-      "forks": 24093,
-      "open_issues": 4756,
+      "stars": 190297,
+      "forks": 24167,
+      "open_issues": 4755,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [],
       "created_at": "2025-04-30T20:08:00Z",
-      "updated_at": "2026-07-27T05:19:54Z",
-      "pushed_at": "2026-07-27T04:39:14Z",
+      "updated_at": "2026-07-28T05:18:48Z",
+      "pushed_at": "2026-07-28T05:11:27Z",
       "days_since_push": 0
     },
     {
@@ -84,15 +84,15 @@
       "full_name": "openai/codex",
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
-      "stars": 101703,
-      "forks": 15237,
-      "open_issues": 11002,
+      "stars": 101949,
+      "forks": 15284,
+      "open_issues": 11107,
       "language": "Rust",
       "license": "Apache-2.0",
       "topics": [],
       "created_at": "2025-04-13T05:37:54Z",
-      "updated_at": "2026-07-27T05:19:37Z",
-      "pushed_at": "2026-07-27T05:16:15Z",
+      "updated_at": "2026-07-28T05:19:51Z",
+      "pushed_at": "2026-07-28T05:19:46Z",
       "days_since_push": 0
     },
     {
@@ -100,9 +100,9 @@
       "full_name": "nexu-io/open-design",
       "url": "https://github.com/nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-      "stars": 81789,
-      "forks": 9456,
-      "open_issues": 683,
+      "stars": 82030,
+      "forks": 9483,
+      "open_issues": 702,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [
@@ -128,8 +128,8 @@
         "vibe-coding"
       ],
       "created_at": "2026-04-28T04:25:20Z",
-      "updated_at": "2026-07-27T05:19:20Z",
-      "pushed_at": "2026-07-27T05:13:36Z",
+      "updated_at": "2026-07-28T05:16:41Z",
+      "pushed_at": "2026-07-28T05:16:56Z",
       "days_since_push": 0
     },
     {
@@ -137,9 +137,9 @@
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
-      "stars": 80533,
-      "forks": 8684,
-      "open_issues": 127,
+      "stars": 80675,
+      "forks": 8698,
+      "open_issues": 128,
       "language": "JavaScript",
       "license": "MIT",
       "topics": [
@@ -151,24 +151,24 @@
         "skills"
       ],
       "created_at": "2026-02-15T20:20:26Z",
-      "updated_at": "2026-07-27T05:15:07Z",
+      "updated_at": "2026-07-28T05:19:58Z",
       "pushed_at": "2026-07-26T12:51:12Z",
-      "days_since_push": 0
+      "days_since_push": 1
     },
     {
       "name": "pi",
       "full_name": "earendil-works/pi",
       "url": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "stars": 78302,
-      "forks": 9638,
-      "open_issues": 85,
+      "stars": 79178,
+      "forks": 9727,
+      "open_issues": 93,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [],
       "created_at": "2025-08-09T14:03:50Z",
-      "updated_at": "2026-07-27T05:18:45Z",
-      "pushed_at": "2026-07-26T16:29:45Z",
+      "updated_at": "2026-07-28T05:15:29Z",
+      "pushed_at": "2026-07-27T22:01:53Z",
       "days_since_push": 0
     },
     {
@@ -176,9 +176,9 @@
       "full_name": "openinterpreter/openinterpreter",
       "url": "https://github.com/openinterpreter/openinterpreter",
       "description": "A coding agent for open models like Kimi K3",
-      "stars": 67322,
-      "forks": 5784,
-      "open_issues": 291,
+      "stars": 67361,
+      "forks": 5786,
+      "open_issues": 0,
       "language": "Rust",
       "license": "Apache-2.0",
       "topics": [
@@ -190,8 +190,8 @@
         "rust"
       ],
       "created_at": "2023-07-14T07:10:44Z",
-      "updated_at": "2026-07-27T04:45:52Z",
-      "pushed_at": "2026-07-27T04:44:45Z",
+      "updated_at": "2026-07-28T05:03:43Z",
+      "pushed_at": "2026-07-28T04:42:45Z",
       "days_since_push": 0
     },
     {
@@ -199,9 +199,9 @@
       "full_name": "code-yeongyu/oh-my-openagent",
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
-      "stars": 66635,
-      "forks": 5430,
-      "open_issues": 923,
+      "stars": 66687,
+      "forks": 5435,
+      "open_issues": 936,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "topics": [
@@ -222,8 +222,8 @@
         "typescript"
       ],
       "created_at": "2025-12-03T01:40:05Z",
-      "updated_at": "2026-07-27T04:54:57Z",
-      "pushed_at": "2026-07-27T04:45:41Z",
+      "updated_at": "2026-07-28T05:09:20Z",
+      "pushed_at": "2026-07-28T05:08:48Z",
       "days_since_push": 0
     },
     {
@@ -231,15 +231,15 @@
       "full_name": "cline/cline",
       "url": "https://github.com/cline/cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-      "stars": 65090,
-      "forks": 6990,
-      "open_issues": 1094,
+      "stars": 65119,
+      "forks": 6993,
+      "open_issues": 1076,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [],
       "created_at": "2024-07-06T07:28:10Z",
-      "updated_at": "2026-07-27T05:01:41Z",
-      "pushed_at": "2026-07-27T05:19:42Z",
+      "updated_at": "2026-07-28T05:12:40Z",
+      "pushed_at": "2026-07-28T04:47:27Z",
       "days_since_push": 0
     },
     {
@@ -247,9 +247,9 @@
       "full_name": "Fission-AI/OpenSpec",
       "url": "https://github.com/Fission-AI/OpenSpec",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
-      "stars": 62685,
-      "forks": 4336,
-      "open_issues": 387,
+      "stars": 62844,
+      "forks": 4347,
+      "open_issues": 332,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [
@@ -265,8 +265,8 @@
         "specification"
       ],
       "created_at": "2025-08-05T10:37:45Z",
-      "updated_at": "2026-07-27T04:09:11Z",
-      "pushed_at": "2026-07-27T01:47:18Z",
+      "updated_at": "2026-07-28T05:06:53Z",
+      "pushed_at": "2026-07-28T03:11:03Z",
       "days_since_push": 0
     },
     {
@@ -274,9 +274,9 @@
       "full_name": "headroomlabs-ai/headroom",
       "url": "https://github.com/headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "stars": 62643,
-      "forks": 4739,
-      "open_issues": 548,
+      "stars": 62826,
+      "forks": 4759,
+      "open_issues": 566,
       "language": "Python",
       "license": "Apache-2.0",
       "topics": [
@@ -302,8 +302,8 @@
         "typescript"
       ],
       "created_at": "2026-01-07T19:58:51Z",
-      "updated_at": "2026-07-27T05:19:36Z",
-      "pushed_at": "2026-07-27T03:28:35Z",
+      "updated_at": "2026-07-28T05:13:38Z",
+      "pushed_at": "2026-07-28T04:57:35Z",
       "days_since_push": 0
     },
     {
@@ -311,9 +311,9 @@
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
-      "stars": 47661,
-      "forks": 3213,
-      "open_issues": 113,
+      "stars": 47715,
+      "forks": 3225,
+      "open_issues": 116,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [
@@ -327,18 +327,18 @@
         "puppeteer"
       ],
       "created_at": "2025-09-11T10:39:55Z",
-      "updated_at": "2026-07-27T04:45:09Z",
-      "pushed_at": "2026-07-26T02:07:08Z",
-      "days_since_push": 1
+      "updated_at": "2026-07-28T04:54:42Z",
+      "pushed_at": "2026-07-27T14:37:05Z",
+      "days_since_push": 0
     },
     {
       "name": "OpenMontage",
       "full_name": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "stars": 42508,
-      "forks": 5094,
-      "open_issues": 205,
+      "stars": 42822,
+      "forks": 5167,
+      "open_issues": 210,
       "language": "Python",
       "license": "AGPL-3.0",
       "topics": [
@@ -363,24 +363,24 @@
         "video-production"
       ],
       "created_at": "2026-03-29T15:23:22Z",
-      "updated_at": "2026-07-27T05:12:19Z",
+      "updated_at": "2026-07-28T05:18:56Z",
       "pushed_at": "2026-07-24T19:25:54Z",
-      "days_since_push": 2
+      "days_since_push": 3
     },
     {
       "name": "multica",
       "full_name": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-      "stars": 42124,
-      "forks": 5333,
-      "open_issues": 1207,
+      "stars": 42275,
+      "forks": 5354,
+      "open_issues": 1198,
       "language": "Go",
       "license": "NOASSERTION",
       "topics": [],
       "created_at": "2026-01-13T17:59:46Z",
-      "updated_at": "2026-07-27T05:12:31Z",
-      "pushed_at": "2026-07-27T05:19:29Z",
+      "updated_at": "2026-07-28T05:15:53Z",
+      "pushed_at": "2026-07-28T05:15:43Z",
       "days_since_push": 0
     },
     {
@@ -388,9 +388,9 @@
       "full_name": "continuedev/continue",
       "url": "https://github.com/continuedev/continue",
       "description": "open-source coding agent",
-      "stars": 35127,
-      "forks": 5112,
-      "open_issues": 930,
+      "stars": 35149,
+      "forks": 5122,
+      "open_issues": 935,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [
@@ -401,8 +401,8 @@
         "open-source"
       ],
       "created_at": "2023-05-24T03:39:39Z",
-      "updated_at": "2026-07-27T04:37:58Z",
-      "pushed_at": "2026-07-26T08:47:58Z",
+      "updated_at": "2026-07-28T04:07:53Z",
+      "pushed_at": "2026-07-27T17:01:04Z",
       "days_since_push": 0
     },
     {
@@ -410,8 +410,8 @@
       "full_name": "TabbyML/tabby",
       "url": "https://github.com/TabbyML/tabby",
       "description": "Self-hosted AI coding assistant",
-      "stars": 33791,
-      "forks": 1779,
+      "stars": 33790,
+      "forks": 1780,
       "open_issues": 329,
       "language": "Rust",
       "license": "NOASSERTION",
@@ -427,18 +427,53 @@
         "llms"
       ],
       "created_at": "2023-03-16T09:18:01Z",
-      "updated_at": "2026-07-27T04:49:32Z",
+      "updated_at": "2026-07-28T02:46:14Z",
       "pushed_at": "2026-06-30T20:38:02Z",
-      "days_since_push": 26
+      "days_since_push": 27
+    },
+    {
+      "name": "orca",
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "stars": 31048,
+      "forks": 2199,
+      "open_issues": 2438,
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor-agent",
+        "devtools",
+        "ghostty",
+        "ide",
+        "mobile-app",
+        "opencode",
+        "orchestration",
+        "parallel-agents",
+        "pi",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "created_at": "2026-03-17T03:28:57Z",
+      "updated_at": "2026-07-28T05:19:22Z",
+      "pushed_at": "2026-07-28T05:17:04Z",
+      "days_since_push": 0
     },
     {
       "name": "ai-website-cloner-template",
       "full_name": "JCodesMore/ai-website-cloner-template",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
-      "stars": 30298,
-      "forks": 4364,
-      "open_issues": 29,
+      "stars": 30391,
+      "forks": 4372,
+      "open_issues": 28,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [
@@ -463,53 +498,18 @@
         "website-clone"
       ],
       "created_at": "2026-03-13T11:14:39Z",
-      "updated_at": "2026-07-27T05:09:51Z",
+      "updated_at": "2026-07-28T05:09:42Z",
       "pushed_at": "2026-07-04T06:49:18Z",
-      "days_since_push": 22
-    },
-    {
-      "name": "orca",
-      "full_name": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "stars": 29983,
-      "forks": 2121,
-      "open_issues": 2350,
-      "language": "TypeScript",
-      "license": "MIT",
-      "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode",
-        "orchestration",
-        "parallel-agents",
-        "pi",
-        "terminal",
-        "worktrees",
-        "yc-backed"
-      ],
-      "created_at": "2026-03-17T03:28:57Z",
-      "updated_at": "2026-07-27T05:18:43Z",
-      "pushed_at": "2026-07-27T05:17:58Z",
-      "days_since_push": 0
+      "days_since_push": 23
     },
     {
       "name": "DeepSeek-Reasonix",
       "full_name": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 27840,
-      "forks": 1789,
-      "open_issues": 1310,
+      "stars": 27917,
+      "forks": 1794,
+      "open_issues": 1317,
       "language": "Go",
       "license": "MIT",
       "topics": [
@@ -531,8 +531,8 @@
         "typescript"
       ],
       "created_at": "2026-04-21T08:27:02Z",
-      "updated_at": "2026-07-27T05:15:40Z",
-      "pushed_at": "2026-07-27T04:31:07Z",
+      "updated_at": "2026-07-28T04:17:17Z",
+      "pushed_at": "2026-07-27T15:00:53Z",
       "days_since_push": 0
     },
     {
@@ -540,8 +540,8 @@
       "full_name": "BloopAI/vibe-kanban",
       "url": "https://github.com/BloopAI/vibe-kanban",
       "description": "Get 10X more out of Claude Code, Codex or any coding agent",
-      "stars": 27540,
-      "forks": 2918,
+      "stars": 27557,
+      "forks": 2919,
       "open_issues": 534,
       "language": "Rust",
       "license": "Apache-2.0",
@@ -553,18 +553,18 @@
         "task-manager"
       ],
       "created_at": "2025-06-14T19:10:21Z",
-      "updated_at": "2026-07-27T04:56:15Z",
+      "updated_at": "2026-07-28T02:53:17Z",
       "pushed_at": "2026-04-24T09:17:34Z",
-      "days_since_push": 93
+      "days_since_push": 94
     },
     {
       "name": "kilocode",
       "full_name": "Kilo-Org/kilocode",
       "url": "https://github.com/Kilo-Org/kilocode",
       "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-      "stars": 26536,
-      "forks": 2971,
-      "open_issues": 693,
+      "stars": 26565,
+      "forks": 2979,
+      "open_issues": 691,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [
@@ -582,8 +582,8 @@
         "vscode-extension"
       ],
       "created_at": "2025-03-10T15:34:26Z",
-      "updated_at": "2026-07-27T04:44:43Z",
-      "pushed_at": "2026-07-27T00:58:52Z",
+      "updated_at": "2026-07-28T04:02:21Z",
+      "pushed_at": "2026-07-28T02:11:08Z",
       "days_since_push": 0
     },
     {
@@ -591,24 +591,24 @@
       "full_name": "google-labs-code/design.md",
       "url": "https://github.com/google-labs-code/design.md",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "stars": 26447,
-      "forks": 2132,
-      "open_issues": 38,
+      "stars": 26505,
+      "forks": 2142,
+      "open_issues": 30,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [],
       "created_at": "2026-04-10T17:54:59Z",
-      "updated_at": "2026-07-27T04:56:52Z",
-      "pushed_at": "2026-07-24T21:12:13Z",
-      "days_since_push": 2
+      "updated_at": "2026-07-28T04:51:30Z",
+      "pushed_at": "2026-07-27T21:15:07Z",
+      "days_since_push": 0
     },
     {
       "name": "frontend-slides",
       "full_name": "zarazhangrui/frontend-slides",
       "url": "https://github.com/zarazhangrui/frontend-slides",
       "description": "Create beautiful slides on the web using a coding agent's frontend skills",
-      "stars": 26384,
-      "forks": 2142,
+      "stars": 26453,
+      "forks": 2148,
       "open_issues": 65,
       "language": "JavaScript",
       "license": "MIT",
@@ -625,24 +625,24 @@
         "vibe-coding"
       ],
       "created_at": "2026-01-28T00:42:34Z",
-      "updated_at": "2026-07-27T04:55:52Z",
+      "updated_at": "2026-07-28T05:05:11Z",
       "pushed_at": "2026-06-23T20:08:19Z",
-      "days_since_push": 33
+      "days_since_push": 34
     },
     {
       "name": "qwen-code",
       "full_name": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
-      "stars": 26351,
-      "forks": 2723,
-      "open_issues": 702,
+      "stars": 26379,
+      "forks": 2727,
+      "open_issues": 748,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [],
       "created_at": "2025-06-26T01:37:46Z",
-      "updated_at": "2026-07-27T04:29:08Z",
-      "pushed_at": "2026-07-27T05:08:41Z",
+      "updated_at": "2026-07-28T05:15:03Z",
+      "pushed_at": "2026-07-28T05:19:57Z",
       "days_since_push": 0
     },
     {
@@ -650,25 +650,25 @@
       "full_name": "openai/symphony",
       "url": "https://github.com/openai/symphony",
       "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
-      "stars": 26244,
+      "stars": 26268,
       "forks": 2660,
       "open_issues": 9,
       "language": "Elixir",
       "license": "Apache-2.0",
       "topics": [],
       "created_at": "2026-02-26T21:54:00Z",
-      "updated_at": "2026-07-27T01:53:30Z",
+      "updated_at": "2026-07-28T03:00:54Z",
       "pushed_at": "2026-07-24T17:56:45Z",
-      "days_since_push": 2
+      "days_since_push": 3
     },
     {
       "name": "agentmemory",
       "full_name": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-      "stars": 25826,
-      "forks": 2150,
-      "open_issues": 416,
+      "stars": 25891,
+      "forks": 2156,
+      "open_issues": 419,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "topics": [
@@ -687,18 +687,18 @@
         "openclaw"
       ],
       "created_at": "2026-02-25T07:32:52Z",
-      "updated_at": "2026-07-27T05:12:19Z",
-      "pushed_at": "2026-07-25T21:52:31Z",
-      "days_since_push": 1
+      "updated_at": "2026-07-28T05:17:53Z",
+      "pushed_at": "2026-07-27T06:16:31Z",
+      "days_since_push": 0
     },
     {
       "name": "planning-with-files",
       "full_name": "OthmanAdi/planning-with-files",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Claude Code, Codex, Cursor, Kiro, OpenCode and 60+ agents via the Agent Skills standard.",
-      "stars": 25767,
-      "forks": 2164,
-      "open_issues": 5,
+      "stars": 25793,
+      "forks": 2162,
+      "open_issues": 6,
       "language": "Python",
       "license": "MIT",
       "topics": [
@@ -724,18 +724,18 @@
         "session-recovery"
       ],
       "created_at": "2026-01-03T07:37:28Z",
-      "updated_at": "2026-07-27T05:14:35Z",
+      "updated_at": "2026-07-28T04:49:23Z",
       "pushed_at": "2026-07-24T18:18:21Z",
-      "days_since_push": 2
+      "days_since_push": 3
     },
     {
       "name": "beads",
       "full_name": "gastownhall/beads",
       "url": "https://github.com/gastownhall/beads",
       "description": "Beads - A memory upgrade for your coding agent",
-      "stars": 25681,
-      "forks": 1725,
-      "open_issues": 435,
+      "stars": 25705,
+      "forks": 1727,
+      "open_issues": 432,
       "language": "Go",
       "license": "MIT",
       "topics": [
@@ -744,8 +744,8 @@
         "coding"
       ],
       "created_at": "2025-10-12T03:09:46Z",
-      "updated_at": "2026-07-27T05:11:32Z",
-      "pushed_at": "2026-07-27T04:40:34Z",
+      "updated_at": "2026-07-28T05:14:34Z",
+      "pushed_at": "2026-07-28T04:29:02Z",
       "days_since_push": 0
     },
     {
@@ -753,9 +753,9 @@
       "full_name": "manaflow-ai/cmux",
       "url": "https://github.com/manaflow-ai/cmux",
       "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-      "stars": 25184,
-      "forks": 2086,
-      "open_issues": 3853,
+      "stars": 25228,
+      "forks": 2088,
+      "open_issues": 3854,
       "language": "Swift",
       "license": "NOASSERTION",
       "topics": [
@@ -779,8 +779,8 @@
         "workspace-manager"
       ],
       "created_at": "2026-01-28T10:03:24Z",
-      "updated_at": "2026-07-27T05:05:56Z",
-      "pushed_at": "2026-07-27T05:18:14Z",
+      "updated_at": "2026-07-28T04:45:54Z",
+      "pushed_at": "2026-07-28T05:15:38Z",
       "days_since_push": 0
     },
     {
@@ -788,9 +788,9 @@
       "full_name": "alirezarezvani/claude-skills",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "stars": 23253,
-      "forks": 3188,
-      "open_issues": 8,
+      "stars": 23328,
+      "forks": 3210,
+      "open_issues": 9,
       "language": "Python",
       "license": "MIT",
       "topics": [
@@ -816,50 +816,34 @@
         "prompt-engineering"
       ],
       "created_at": "2025-10-19T04:04:05Z",
-      "updated_at": "2026-07-27T05:15:30Z",
+      "updated_at": "2026-07-28T04:33:37Z",
       "pushed_at": "2026-07-17T13:02:50Z",
-      "days_since_push": 9
+      "days_since_push": 10
     },
     {
       "name": "agents.md",
       "full_name": "agentsmd/agents.md",
       "url": "https://github.com/agentsmd/agents.md",
       "description": "AGENTS.md — a simple, open format for guiding coding agents",
-      "stars": 23227,
-      "forks": 1737,
+      "stars": 23253,
+      "forks": 1739,
       "open_issues": 161,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [],
       "created_at": "2025-08-19T17:22:54Z",
-      "updated_at": "2026-07-27T05:11:39Z",
+      "updated_at": "2026-07-28T05:14:51Z",
       "pushed_at": "2026-03-12T14:26:14Z",
-      "days_since_push": 136
-    },
-    {
-      "name": "grok-build",
-      "full_name": "xai-org/grok-build",
-      "url": "https://github.com/xai-org/grok-build",
-      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 22816,
-      "forks": 4304,
-      "open_issues": 0,
-      "language": "Rust",
-      "license": "Apache-2.0",
-      "topics": [],
-      "created_at": "2026-07-14T20:04:23Z",
-      "updated_at": "2026-07-27T05:14:18Z",
-      "pushed_at": "2026-07-26T20:58:13Z",
-      "days_since_push": 0
+      "days_since_push": 137
     },
     {
       "name": "ai-agent-book",
       "full_name": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "stars": 21491,
-      "forks": 2147,
-      "open_issues": 13,
+      "stars": 23234,
+      "forks": 2339,
+      "open_issues": 12,
       "language": "Python",
       "license": "Apache-2.0",
       "topics": [
@@ -878,8 +862,24 @@
         "reinforcement-learning"
       ],
       "created_at": "2025-09-09T02:41:44Z",
-      "updated_at": "2026-07-27T05:18:50Z",
-      "pushed_at": "2026-07-27T04:16:17Z",
+      "updated_at": "2026-07-28T05:19:48Z",
+      "pushed_at": "2026-07-28T04:44:39Z",
+      "days_since_push": 0
+    },
+    {
+      "name": "grok-build",
+      "full_name": "xai-org/grok-build",
+      "url": "https://github.com/xai-org/grok-build",
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "stars": 23082,
+      "forks": 4363,
+      "open_issues": 0,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [],
+      "created_at": "2026-07-14T20:04:23Z",
+      "updated_at": "2026-07-28T05:17:09Z",
+      "pushed_at": "2026-07-27T17:54:39Z",
       "days_since_push": 0
     },
     {
@@ -887,9 +887,9 @@
       "full_name": "can1357/oh-my-pi",
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "stars": 19985,
-      "forks": 1873,
-      "open_issues": 713,
+      "stars": 20295,
+      "forks": 1895,
+      "open_issues": 772,
       "language": "TypeScript",
       "license": "MIT",
       "topics": [
@@ -910,8 +910,8 @@
         "typescript"
       ],
       "created_at": "2025-12-31T14:01:28Z",
-      "updated_at": "2026-07-27T05:16:09Z",
-      "pushed_at": "2026-07-27T04:26:28Z",
+      "updated_at": "2026-07-28T05:19:59Z",
+      "pushed_at": "2026-07-28T04:40:49Z",
       "days_since_push": 0
     },
     {
@@ -919,9 +919,9 @@
       "full_name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
-      "stars": 19345,
-      "forks": 1367,
-      "open_issues": 111,
+      "stars": 19388,
+      "forks": 1373,
+      "open_issues": 115,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "topics": [
@@ -947,8 +947,8 @@
         "zed-extension"
       ],
       "created_at": "2026-02-23T05:56:28Z",
-      "updated_at": "2026-07-27T05:14:45Z",
-      "pushed_at": "2026-07-26T06:52:00Z",
+      "updated_at": "2026-07-28T05:09:51Z",
+      "pushed_at": "2026-07-27T07:03:40Z",
       "days_since_push": 0
     },
     {
@@ -956,9 +956,9 @@
       "full_name": "labring/sealos",
       "url": "https://github.com/labring/sealos",
       "description": "Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations.",
-      "stars": 18307,
+      "stars": 18309,
       "forks": 2474,
-      "open_issues": 92,
+      "open_issues": 91,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "topics": [
@@ -973,8 +973,8 @@
         "kubernetes-ha"
       ],
       "created_at": "2018-08-15T12:22:50Z",
-      "updated_at": "2026-07-27T04:07:52Z",
-      "pushed_at": "2026-07-27T04:07:14Z",
+      "updated_at": "2026-07-28T00:31:58Z",
+      "pushed_at": "2026-07-28T02:27:24Z",
       "days_since_push": 0
     },
     {
@@ -982,16 +982,16 @@
       "full_name": "browser-use/video-use",
       "url": "https://github.com/browser-use/video-use",
       "description": "Edit videos with coding agents",
-      "stars": 17882,
-      "forks": 2173,
+      "stars": 17962,
+      "forks": 2196,
       "open_issues": 58,
       "language": "Python",
       "license": "MIT",
       "topics": [],
       "created_at": "2026-04-12T01:34:42Z",
-      "updated_at": "2026-07-27T05:06:18Z",
+      "updated_at": "2026-07-28T05:01:21Z",
       "pushed_at": "2026-07-01T00:33:52Z",
-      "days_since_push": 26
+      "days_since_push": 27
     },
     {
       "name": "plandex",
@@ -999,7 +999,7 @@
       "url": "https://github.com/plandex-ai/plandex",
       "description": "Open source AI coding agent. Designed for large projects and real world tasks.",
       "stars": 15545,
-      "forks": 1165,
+      "forks": 1166,
       "open_issues": 60,
       "language": "Go",
       "license": "MIT",
@@ -1022,17 +1022,17 @@
         "terminal-ui"
       ],
       "created_at": "2023-10-24T22:11:43Z",
-      "updated_at": "2026-07-26T08:07:22Z",
+      "updated_at": "2026-07-28T05:02:28Z",
       "pushed_at": "2025-10-03T21:49:58Z",
-      "days_since_push": 296
+      "days_since_push": 297
     },
     {
       "name": "Figma-Context-MCP",
       "full_name": "GLips/Figma-Context-MCP",
       "url": "https://github.com/GLips/Figma-Context-MCP",
       "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
-      "stars": 15504,
-      "forks": 1224,
+      "stars": 15513,
+      "forks": 1225,
       "open_issues": 21,
       "language": "TypeScript",
       "license": "MIT",
@@ -1044,48 +1044,48 @@
         "typescript"
       ],
       "created_at": "2025-02-13T02:55:06Z",
-      "updated_at": "2026-07-27T03:25:28Z",
+      "updated_at": "2026-07-28T04:15:16Z",
       "pushed_at": "2026-07-03T14:24:36Z",
-      "days_since_push": 23
+      "days_since_push": 24
     },
     {
       "name": "cc-connect",
       "full_name": "chenhg5/cc-connect",
       "url": "https://github.com/chenhg5/cc-connect",
       "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
-      "stars": 14404,
-      "forks": 1388,
-      "open_issues": 514,
+      "stars": 14435,
+      "forks": 1395,
+      "open_issues": 518,
       "language": "Go",
       "license": null,
       "topics": [],
       "created_at": "2026-02-28T02:39:39Z",
-      "updated_at": "2026-07-27T05:13:41Z",
+      "updated_at": "2026-07-28T04:39:49Z",
       "pushed_at": "2026-07-25T01:52:56Z",
-      "days_since_push": 2
+      "days_since_push": 3
     },
     {
       "name": "context-engineering-intro",
       "full_name": "coleam00/context-engineering-intro",
       "url": "https://github.com/coleam00/context-engineering-intro",
       "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
-      "stars": 13742,
-      "forks": 2724,
+      "stars": 13745,
+      "forks": 2722,
       "open_issues": 33,
       "language": "Python",
       "license": "MIT",
       "topics": [],
       "created_at": "2025-07-02T11:54:47Z",
-      "updated_at": "2026-07-27T05:09:25Z",
+      "updated_at": "2026-07-28T03:47:54Z",
       "pushed_at": "2026-03-16T12:13:59Z",
-      "days_since_push": 132
+      "days_since_push": 133
     }
   ],
   "trend": {
-    "compared_to": "2026-07-26T05:20:02.204330Z",
+    "compared_to": "2026-07-27T05:20:01.573366Z",
     "repositories_delta": 0,
-    "total_stars_delta": 5862,
-    "median_stars_delta": 30,
+    "total_stars_delta": 6999,
+    "median_stars_delta": 43,
     "licensed_share_delta": 0.0,
     "new_repositories": [],
     "departed_repositories": []
@@ -1136,6 +1136,19 @@
       "repositories": 40,
       "total_stars": 1633507,
       "median_stars": 26492,
+      "median_days_since_push": 0,
+      "licensed_share": 0.975,
+      "leading_language": {
+        "name": "TypeScript",
+        "repositories": 19
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "generated_at": "2026-07-28T05:20:01.295467Z",
+      "repositories": 40,
+      "total_stars": 1640506,
+      "median_stars": 26535,
       "median_days_since_push": 0,
       "licensed_share": 0.975,
       "leading_language": {
